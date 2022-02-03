@@ -13,6 +13,7 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <h2>Hello ${firstName} ${lastName}</h2>
+        <h2>Hello ${person.firstname} ${person.lastname}</h2>
+        <!--<p>${person.address.line1} ${person.address.postalcode}</p>-->
     </body>
 </html>
